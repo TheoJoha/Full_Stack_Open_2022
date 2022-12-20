@@ -1,0 +1,12 @@
+title 0.6: New note in Single page app diagram
+
+note over browser:
+User clicks on the button to add a note over
+end note
+
+browser->server: POST request sent to https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: The server responds with status code 201
+
+note over browser: 
+The JS-code adds the note to the list
+end note

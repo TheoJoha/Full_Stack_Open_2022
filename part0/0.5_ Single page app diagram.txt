@@ -1,0 +1,19 @@
+title 0.5: Single page app diagram
+
+browser -> server: Get request sent to https://studies.cs.helsinki.fi/exampleapp/spa
+server --> browser: HTML-code
+
+note over browser:
+Browser manipulates contents of received HTML-code
+end note
+
+
+
+
+
+
+
+
+
+
+
